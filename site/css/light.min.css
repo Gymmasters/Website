@@ -1,0 +1,198 @@
+.accordion-flush .accordion-item .accordion-button,
+body {
+    color: #000
+}
+
+body,
+header {
+    background-color: #fff
+}
+
+.btn.text-white,
+.main-header2 a,
+.successStory {
+    color: rgb(255 255 255) !important
+}
+
+.default-bg {
+    background-color: rgb(255 255 255)
+}
+
+.black-bg {
+    background-color: #000;
+    color: rgb(255 255 255)
+}
+
+.btn.theme,
+.form-control,
+a,
+footer .fas,
+nav .dropdown-toggle::after,
+nav .nav-link {
+    color: #333
+}
+
+
+
+
+
+.navbar-toggler .navbar-toggler-icon:hover {
+    background-color: #333
+}
+
+.nav-link .lang-icon {
+    filter: brightness(.2)
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    color: #081b1d
+}
+
+.bg-gray,
+.feature div,
+.home-stories:before {
+    background-color: #f5f5fa
+}
+
+#about-sst,
+#about-sst .text-white,
+#login-modal .btn-cancel,
+.btn.text-white.btn-cancel,
+.text-white {
+    color: #fff !important
+}
+
+.feature div .number {
+    color: #b3b3b3
+}
+
+.accordion-flush .accordion-item {
+    border-color: #eeeeeee5
+}
+
+.change-theme .btn,
+.change-theme .btn:hover {
+    color: #333 !important
+}
+
+.by,
+.locked,
+.main-header,
+.navbar-nav .dropdown-item:hover,
+.play-video {
+    color: rgb(255 255 255)
+}
+
+.social a {
+    color: #000;
+    border: 1px solid #000
+}
+
+.text-gradient {
+    background: linear-gradient(30deg, #000, #000, #d63909, #000, #000, #000)
+}
+
+.form-control::placeholder {
+    color: rgba(0, 0, 0, .219)
+}
+
+.counter-shadow {
+    -webkit-text-stroke-color: #3C7DD969
+}
+
+.story-header .header-img:after {
+    content: "";
+    background-image: linear-gradient(to bottom, #ff000000, #fff)
+}
+
+.course-img::after,
+.courses .course-img::after {
+    content: "";
+    background-image: linear-gradient(to top, #fff, #adadad00)
+}
+
+.navbar-nav .dropdown-menu {
+    background: rgb(255 255 255);
+    box-shadow: 0 0 7px #eae6e6
+}
+
+.locked {
+    background: #eaeaf6
+}
+
+.payment .border-bottom {
+    border-bottom: 1px solid px !important
+}
+
+.main-header {
+    background-color: #333
+}
+
+.sst-form .form-check-input {
+    border: 2px solid #6a696954;
+    background: 0 0
+}
+
+.switch-buttons__light {
+    display: none
+}
+
+.form-control:focus {
+    border-color: #3c7dd9
+}
+
+.form-control.is-invalid,
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid,
+.was-validated .form-control:invalid:focus {
+    border-color: #3c7dd9;
+    background-image: none;
+    box-shadow: none
+}
+
+.invalid-feedback,
+form .text-danger {
+    position: relative;
+    width: 100%;
+    margin: 1rem 0 0;
+    font-size: 13px;
+    background-color: #ff929263;
+    color: red !important;
+    box-shadow: 0 .2rem .4rem #f79797;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    animation: .5s linear forwards invalid-animate;
+    font-weight: 100
+}
+
+.invalid-feedback::before,
+form .text-danger::before {
+    content: "\f0d8";
+    position: absolute;
+    top: -18px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #ffd5d5
+}
+
+.before-sale {
+    color: rgb(128 137 141)
+}
+
+#paymentHistoryTable td,
+#paymentHistoryTable th {
+    border-color: #f5f5fa !important
+}
+
+@media (max-width:992px) {
+    #Membership .row {
+        background-color: transparent
+    }
+
+    #Membership .row .package .package-details {
+        border-radius: 25px;
+        margin-block: 15px
+    }
+}
