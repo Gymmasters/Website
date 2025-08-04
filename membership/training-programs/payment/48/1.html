@@ -86,9 +86,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="text-white bold mb-0 me-4" style="font-size: 14px">
             Lost and new to the gym?
         </p>
-<!--        <a href="https://gymmawy.fit/register" style="color:white"> Register</a>-->
-<!--        <a href="https://gymmawy.fit/login-page" style="color:white"> Login</a>-->
-<!--        <a href="https://gymmawy.fit/logout" style="color:white"> Logout</a>-->
+<!--        <a href="https://gymmawy.omarelnemr.xyz/register" style="color:white"> Register</a>-->
+<!--        <a href="https://gymmawy.omarelnemr.xyz/login-page" style="color:white"> Login</a>-->
+<!--        <a href="https://gymmawy.omarelnemr.xyz/logout" style="color:white"> Logout</a>-->
         <a href="../43/1.html"
            style="width: fit-content; font-size: 12px !important;"
            class="btn btn-join default-btn second-bg text-white d-flex align-items-center justify-content-center effect p-2 active">
@@ -212,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <!-- <div class="auth-list">
                 <ul class="navbar-nav mx-auto ">
                 <li class="nav-item my-auto d-inline-block">
-                        <a href="https://gymmawy.fit/#Membership" class="btn default-btn no-default  second-bg text-white ">
+                        <a href="https://gymmawy.omarelnemr.xyz/#Membership" class="btn default-btn no-default  second-bg text-white ">
                             Subscribe Now
                          </a>
                     </li>
@@ -223,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div> -->
 
                 <!-- <div class="lang">
-                                        <a href="https://gymmawy.fit/lang/ar" class="nav-link lang-ar ">
+                                        <a href="https://gymmawy.omarelnemr.xyz/lang/ar" class="nav-link lang-ar ">
 
 
                         العربية
@@ -492,7 +492,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </a>
                                             </p>
                 </div>
-                <a class="fs-6" href="https://gymmawy.fit/cdn-cgi/l/email-protection#cba2a5ada48bacaea6aabcb2e5a5aebf">
+                <a class="fs-6" href="https://gymmawy.omarelnemr.xyz/cdn-cgi/l/email-protection#cba2a5ada48bacaea6aabcb2e5a5aebf">
                    <i class="fas fa-envelope" aria-hidden="true"></i>
                     <span class="__cf_email__" data-cfemail="3b52555d547b5c5e565a4c4215555e4f">[email&#160;protected]</span>
                 </a>
@@ -617,7 +617,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     callback(countryCode);
                 });
             },
-            utilsScript: "https://gymmawy.fit/site/js/utils.js"
+            utilsScript: "https://gymmawy.omarelnemr.xyz/site/js/utils.js"
         });
 
         let handleChange = function () {
@@ -676,7 +676,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 useToast(messageCoupon, 'error')
                 return
             }
-            $.get("https://gymmawy.fit/membership/promotion/xx/xxx/program".replace('xx', code).replace('xxx', membershipId)).done((res) => {
+            $.get("https://gymmawy.omarelnemr.xyz/membership/promotion/xx/xxx/program".replace('xx', code).replace('xxx', membershipId)).done((res) => {
                 if (!res.status) {
                     let messageCoupon = "Coupon code is not valid"
                     useToast(messageCoupon, 'error')
@@ -783,7 +783,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         function stripePayment() {
             $.ajax({
                 type: 'post',
-                url: "https://gymmawy.fit/stripe/checkout",
+                url: "https://gymmawy.omarelnemr.xyz/stripe/checkout",
                 data: {
                     program: 'program',
                     name: $('#name').val(),
@@ -813,7 +813,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         function fawryPay() {
             $.ajax({
                 type: 'post',
-                url: "https://gymmawy.fit/membership/program-build-charge",
+                url: "https://gymmawy.omarelnemr.xyz/membership/program-build-charge",
                 data: {
                     program: 'program',
                     name: $('#name').val(),
@@ -837,7 +837,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         function freePay() {
             $.ajax({
                 type: 'post',
-                url: "https://gymmawy.fit/membership/free-build-charge",
+                url: "https://gymmawy.omarelnemr.xyz/membership/free-build-charge",
                 data: {
                     program: 'program',
                     name: $('#name').val(),
@@ -860,7 +860,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         function SaveGuestTryCheckout() {
             $.ajax({
                 type: 'POST',
-                url: "https://gymmawy.fit/before-checkout-guest",
+                url: "https://gymmawy.omarelnemr.xyz/before-checkout-guest",
                 data: {
                     program: 'program',
                     name: $('#name').val(),
@@ -938,7 +938,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         function kashierPay(){
             $.ajax({
                 type: 'post',
-                url: "https://gymmawy.fit/membership/build-kashier-charge",
+                url: "https://gymmawy.omarelnemr.xyz/membership/build-kashier-charge",
                 data: {
                     program: 'program',
                     name: $('#name').val(),

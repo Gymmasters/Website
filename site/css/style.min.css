@@ -823,7 +823,7 @@ nav .nav-item .nav-link,
 }
 
 .story-word {
-    background-image: url(https://gymmawy.fit/site/images/story-word.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/story-word.png);
     background-size: contain
 }
 
@@ -2046,7 +2046,7 @@ input[type=checkbox] {
 }
 
 .main-header2 {
-    background-image: url(https://gymmawy.fit/site/images/Header.gif);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/Header.gif);
     background-blend-mode: overlay;
     color: rgb(255 255 255)
 }
@@ -7492,7 +7492,7 @@ body.swal2-toast-shown .swal2-container {
 }
 
 .ladies-subscribtion {
-    background-image: url(https://gymmawy.fit/site/images/sstLadies/bg-dark.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/bg-dark.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 150%
@@ -7562,7 +7562,7 @@ body.swal2-toast-shown .swal2-container {
 #LadiesStories .swiper-button-prev:after,
 #LadiesStories .swiper-rtl .swiper-button-next:after,
 #LadiesStories .swiper-rtl .swiper-button-prev:after {
-    content: url(https://gymmawy.fit/site/images/sstLadies/icons/sliderArrow.svg);
+    content: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/icons/sliderArrow.svg);
     font-family: unset;
     line-height: .7
 }
@@ -7633,13 +7633,13 @@ html[lang=en] ._langing-page_hero .img-container img {
 
 .ladies-lead:before {
     content: "";
-    background-image: url(https://gymmawy.fit/site/images/sstLadies/Noise.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/Noise.png);
     z-index: -1;
     background-color: #333333ed
 }
 
 .ladies-services .serv-bg {
-    background-image: url(https://gymmawy.fit/site/images/sstLadies/serv-bg.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/serv-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -8320,7 +8320,7 @@ html[lang=en] ._langing-page_hero .img-container {
 }
 
 .header2:before {
-    background-image: url(https://gymmawy.fit/site/images/sstLadies/right-bg.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/right-bg.png);
     width: 100%;
     position: absolute
 }
@@ -8350,7 +8350,7 @@ html[lang=en] ._langing-page_hero .img-container {
 }
 
 .Transform-block:before {
-    background-image: url(https://gymmawy.fit/site/images/sstLadies/left-bg.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/left-bg.png);
     width: 100%;
     position: absolute
 }
@@ -8376,7 +8376,7 @@ html[lang=en] ._langing-page_hero .img-container {
 }
 
 .ladiesFeatures {
-    background-image: url(https://gymmawy.fit/site/images/sstLadies/features.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/features.png);
     padding-block: 100px;
     background-position: center;
     background-size: cover
@@ -8478,7 +8478,7 @@ html[lang=en] ._langing-page_hero .img-container {
 
 .steps:before {
     content: "";
-    background-image: url(https://gymmawy.fit/site/images/sstLadies/right-bg.png);
+    background-image: url(https://gymmawy.omarelnemr.xyz/site/images/sstLadies/right-bg.png);
     background-position: right;
     background-repeat: no-repeat;
     width: 60%;
